@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://github.githubassets.com/assets/campaign-social-031d6161fa10.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3rem;
+  color: white;
+}
+
+.btn-primary{
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: blue;
+  border-color: whitesmoke;
+}
+
+.buffer{
+  height: 10rem;
+}
+
+hr {
+    margin: 30px auto;
+    color: whitesmoke;
+    border: 5px ridge #0A0A70;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn-primary:hover{
+  border-color: darkred;
+  background-color: white;
+  color: black;
+}
+
+button, hr, h1{
+  display: flex;
+  justify-content: center;
+}
